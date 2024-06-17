@@ -1,0 +1,125 @@
+---
+layout: default
+title: Home
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Thiele Bert Classifier</title>
+  </head>
+  <body>
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'>Supplemental
+Materials for <o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span style='font-size:18.0pt;font-family:"Garamond",serif'>Reordering
+Thiele: <o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:18.0pt;font-family:"Garamond",serif'>Preliminary
+Results of LLM-Based Topic Modeling for Flexible Classification of Early Legend
+Collections<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:"Garamond",serif'>By
+Timothy R. Tangherlini (UC Berkeley)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:"Garamond",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><strong>Tables</strong><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/table_01.html' | relative_url }}">Table
+1</a>: An overview of Thiele’s <span class=SpellE>Danmarks</span> <span
+class=SpellE>folkesagn</span> by number and length of legends.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/table_02.html' | relative_url }}">Table
+2</a>: The topics discovered by BERTopic, and the two sets of labels generated for
+each topic.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:"Garamond",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:"Garamond",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><strong>Figures</strong><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/figure_01.html' | relative_url }}">Figure
+1</a>: Length of stories in Thiele’s <span class=SpellE>Danmarks</span> <span
+class=SpellE>folkesagn</span>, measured in tokens, and binned into groups of 50
+tokens. Across the top, a simple box plot showing the main range and
+concentration of story lengths.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/figure_02a.html' | relative_url }}">Figure
+2a</a>: A bipartite layout for the ego-network representation of topic 1, “the
+minister, the king, came, last, stood” expanded to include the first topic
+neighbors of all the associated legends. Note that the topic space of 44 topics
+is fully covered by this selection of legends<o:p></o:p></span></p>
+
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/figure_02b.html' | relative_url }}">Figure
+2b</a>: A selection of all the legends classified by Thiele as “holy springs”, and
+their associated topics. Note that not all the legends in Thiele’s class are
+captured by the very fine-grained topic, “spring, mile, field, told, carries,
+said, water”.<o:p></o:p></span></p>
+
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/figure_03.html' | relative_url }}">Figure
+3</a>: The intertopic distance map visualizer, showing the overall topic space,
+where distance between topics is measured using a cosine similarity metric, and
+size captures the number of associated legend chunks. Topics that share a great
+deal of semantic similarity are presented close to one another in this 2-D
+representation of the clustered 5-D space.<o:p></o:p></span></p>
+
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/figure_04.html' | relative_url }}">Figure
+4</a>: A dendrogram visualization of the topic space, offering an alternative
+hierarchical representation of the collection that can supplement Thiele’s
+initial classification. Here, one of the nodes higher in the hierarchy is
+highlighted, labeled with the highest ranked terms from the leaf nodes,
+capturing the relationship between ministers and ghosts, including those of
+dead children.<o:p></o:p></span></p>
+
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/figure_05a.html' | relative_url }}">Figure
+5a</a>: The <span class=SpellE>unclustered</span> bipartite graph, using a spring
+embedded layout algorithm. The larger topic nodes (sized by degree) are at the
+center of most stars (light green), while the stories are represented by
+smaller nodes—the color of the node represents its Thiele class-subclass label,
+while the outer ring is the Thiele division (four main divisions).<o:p></o:p></span></p>
+
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/figure_05b.html' | relative_url }}">Figure
+5b</a>: A clustered version of the same graph, using a fast-greedy modularity-based
+clustering algorithm (Girvan &amp; Newman 2002).<o:p></o:p></span></p>
+
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/figure_06.html' | relative_url }}">Figure
+6</a>: A close-up of one of the legend-topic clusters from the bipartite graph.
+Topics are labeled with their top ten words, and stories are labeled with their
+title. While some stories have a single association to a topic, such as “En <span
+class=SpellE>nedmanet</span> <span class=SpellE>genganger</span> <span
+class=SpellE>i</span> Ebeltoft” [A conjured revenant in Ebeltoft], others, such
+as “<span class=SpellE>Røverne</span> <span class=SpellE>i</span> <span
+class=SpellE>Vissenbjerg</span>” [The Robbers in <span class=SpellE>Vissenbjerg</span>],
+play a bridging function between topics. <o:p></o:p></span></p>
+
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/figure_07a.html' | relative_url }}">Figure
+7a</a>: <span class=GramE>A maximal spanning tree,</span> created using Kruskal’s
+algorithm and making use of edge weights. The tree covers all the legends and
+connects them with their highest weighted edge. A story, such as “<span
+class=SpellE>Skatten</span> <span class=SpellE>i</span> <span class=SpellE>Sortenshave</span>”
+is identified as having very high degree in this network representation,
+identifying it as a target for additional investigation.<o:p></o:p></span></p>
+
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><a href="{{ '/assets/html/figure_07b.html' | relative_url }}">Figure
+7b</a>: Six possible high weight paths from the story “<span class=SpellE>Jomfruspringet</span>”
+[Maiden leap] to the story “<span class=SpellE>Rørvig</span> Kirke” [<span
+class=SpellE>Rørvig</span> church].<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:18.0pt;font-family:"Garamond",serif'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

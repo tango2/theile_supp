@@ -1,0 +1,27 @@
+---
+layout: default
+title: Figure 5A
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        {% include navigation.html %}
+    </header>
+    <main>
+        <h2>Image Example</h2>
+        <img src="{{ '/assets/images/figure_05a.png' | relative_url }}" alt="Figure">
+    </main>
+    <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    </footer>
+</body>
+</html>
